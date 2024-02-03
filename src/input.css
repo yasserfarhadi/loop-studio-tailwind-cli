@@ -5,7 +5,7 @@
 #hero {
   background-image: url('./images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
-  background-sise: cover;
+  background-size: cover;
 }
 
 @media (max-width: 576px) {
@@ -38,4 +38,4 @@
 .item-gradient {
   @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-black group-hover:to-gray-300 group-hover:opacity-70;
 }
-   
+         
