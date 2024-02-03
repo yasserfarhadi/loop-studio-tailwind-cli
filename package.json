@@ -1,0 +1,17 @@
+{
+  "name": "loop-studio-tailwind-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon watch.js",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "tailwindcss": "^3.4.1"
+  }
+}
