@@ -16,7 +16,7 @@ let lastEvent = 0;
             setTimeout(async () => {
               await fs.appendFile(inputPath, ' ');
               resolve();
-            }, 150)
+            }, 200)
           );
         }
       }
